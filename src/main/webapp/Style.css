@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body,html{
+    height:100%;
+    font-family:'Poppins',sans-serif;
+}
+.buttonA {
+    background-color: #3adcde;
+    border: none;
+    color: white;
+    padding: 7px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 6px;
+    cursor: pointer;
+    font-size:20px;
+}
+.buttonB {
+    background-color: #59d71a;
+    border: none;
+    color: white;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: skyblue;
+    display: inline-block;
+    margin: 2px 6px;
+    cursor: pointer;
+    font-size:20px;
+}

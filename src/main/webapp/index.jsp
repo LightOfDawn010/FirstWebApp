@@ -10,17 +10,18 @@
   <body>
   <center>
     <form action="hello-servlet" >
-      <label for="email">e-mail:</label><br>
-      <input type="text" id="email" name="email" required ><br>
-      <label for="lname">Password:</label><br>
-      <input type="password" id="lname" name="lname" required ><br><br>
+      <label for="uname">Username:</label><br>
+      <input type="text" id="uname" name="uname" required ><br>
+      <label for="upwd">Password:</label><br>
+      <input type="password" id="upwd" name="upwd" required ><br><br>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label><br>
       <button class="buttonA">Submit</button>
     </form>
     <br>
-    <a href="Registration.jsp"> Register </a>
+    <a href="Registration.jsp"> Register </a><BR>
+    <a href="ForgetPassword.jsp"> Forget Password </a>
     </center>
   </body>
 </html>

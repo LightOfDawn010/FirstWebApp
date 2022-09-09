@@ -5,7 +5,7 @@
     </head>
     <body>
         <center>
-            <h1>Hello <%=request.getAttribute("ragaca")%> and Welcome to Your Cabinet </h1>
+            <h1>Hello <%=request.getAttribute("nickname")%> and Welcome to Your Cabinet </h1>
             <br><br>
             <a href="index.jsp">Sign Out</a>
         </center>

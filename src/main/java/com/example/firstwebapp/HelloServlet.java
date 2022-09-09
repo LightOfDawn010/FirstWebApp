@@ -17,7 +17,7 @@ public class HelloServlet extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         String rame = request.getParameter("email");
-        request.setAttribute("ragaca", rame);
+        request.setAttribute("nickname", rame);
         RequestDispatcher dispatcher = request.getRequestDispatcher("Wb.jsp");
         dispatcher.forward(request, response);
     }

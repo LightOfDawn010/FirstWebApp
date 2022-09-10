@@ -15,7 +15,9 @@
       <input type="text" id="firstname" name="firstname" placeholder="Enter your Name" required ><br>
       <label for="lastname">Last Name:</label><br>
       <input type="text" id="lastname" name="lastname" placeholder="Enter your Last name" required ><br>
-      <label for="email">e-mail:</label><br>
+      <label for="username">username:</label><br>
+        <input type="text" id="username" name="username" placeholder="Enter your User name" required ><br>
+        <label for="email">e-mail:</label><br>
       <input type="text" id="email" name="email" placeholder="Enter your e-mail" required ><br>
       <label for="password">Password:</label><br>
       <input type="password" id="password" name="password" required placeholder="Enter your password" ><br>

@@ -19,6 +19,18 @@ body,html{
     cursor: pointer;
     font-size:20px;
 }
+.buttonC {
+    background-color: #ef717d;
+    border: none;
+    color: white;
+    padding: 7px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 6px;
+    cursor: pointer;
+    font-size:20px;
+}
 .buttonB {
     background-color: #59d71a;
     border: none;
@@ -30,4 +42,16 @@ body,html{
     margin: 2px 6px;
     cursor: pointer;
     font-size:20px;
+}
+.logoutButton{
+    position:fixed;
+    right:8px;
+    top:7px;
+    font-size:20px;
+    background-color: #59d71a;
+    border: none;
+    color: #3adcde;
+    text-decoration: #eb87e6;
+    padding: 4px 20px;
+    cursor: pointer;
 }

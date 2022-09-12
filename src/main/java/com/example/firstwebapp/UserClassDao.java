@@ -8,9 +8,7 @@ import java.sql.SQLException;
 public class UserClassDao {
 
         public int registerUser(UserClass userClass) throws ClassNotFoundException {
-            String INSERT_USERS_SQL = "INSERT INTO UserClass" +
-                    "  (Firstname,LastName,eMail,Password,UserName) VALUES " +
-                    " (?, ?, ?, ?, ?);";
+            String INSERT_USERS_SQL = "INSERT INTO UserClass  (Firstname,LastName,eMail,Password,UserName,Profession) VALUES  (?,?, ?, ?, ?, ?);";
 
             int result = 0;
 
@@ -26,6 +24,7 @@ public class UserClassDao {
                 preparedStatement.setString(4, userClass.getUserName());
                 preparedStatement.setString(5, userClass.getPassword());
                 preparedStatement.setString(6, userClass.geteMail());
+                preparedStatement.setString(6, userClass.getProfession());
 
 
                 System.out.println(preparedStatement);

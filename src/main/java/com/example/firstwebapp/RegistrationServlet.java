@@ -22,7 +22,7 @@ public class RegistrationServlet extends HttpServlet {
             RequestDispatcher dispatcher = req.getRequestDispatcher("Wb.jsp");
             dispatcher.forward(req, resp);
         } else {
-            RequestDispatcher dispatcher = req.getRequestDispatcher("passwordErrorPage.jsp");
+            RequestDispatcher dispatcher = req.getRequestDispatcher("PasswordErrorPage.jsp");
             dispatcher.forward(req, resp);
 
         }

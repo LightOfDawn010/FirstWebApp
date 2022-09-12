@@ -16,9 +16,9 @@ public class RegistrationServlet extends HttpServlet {
         String pass = req.getParameter("password");
         String repeat = req.getParameter("repeat-password");
         if (pass.equals(repeat)){
-            String name = req.getParameter("firstname");
-            String lastn = req.getParameter("lastname");
-            req.setAttribute("nickname", name + " " + lastn);
+            String fname = req.getParameter("firstname");
+            String lname = req.getParameter("lastname");
+            req.setAttribute("nickname", fname + " " + lname);
             RequestDispatcher dispatcher = req.getRequestDispatcher("Wb.jsp");
             dispatcher.forward(req, resp);
         } else {

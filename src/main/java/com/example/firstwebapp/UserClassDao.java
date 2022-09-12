@@ -14,8 +14,7 @@ public class UserClassDao {
 
             Class.forName("com.mysql.jdbc.Driver");
 
-            try (Connection connection = DriverManager
-                    .getConnection("jdbc:mysql://localhost:3306/mysql_database?useSSL=false", "root", "mrjuice123");
+            try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/userlist", "root", "mrjuice123");
 
                  PreparedStatement preparedStatement = connection.prepareStatement(INSERT_USERS_SQL)) {
                 preparedStatement.setInt(1, 1);

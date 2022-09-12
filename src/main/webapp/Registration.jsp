@@ -10,7 +10,7 @@
 <center>
     <h2> Please Fill All Lines To Register New Account </h2>
 </center>
-<form action="registration-servlet" method="post" >
+<form action="registration-servlet" method="get" >
     <center>
         <label for="firstname">First Name:</label><br>
         <input type="text" id="firstname" name="firstname" placeholder="Enter your Name" required ><br>

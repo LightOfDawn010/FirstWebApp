@@ -21,9 +21,8 @@ public class UserServlet {
             request.setAttribute("nickname", rame);
             RequestDispatcher dispatcher = request.getRequestDispatcher("Wb.jsp");
             dispatcher.forward(request, response);
-
         }
-        protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
             String firstName = request.getParameter("firstName");
             String lastName = request.getParameter("lastName");

@@ -11,6 +11,7 @@ import java.io.*;
 @WebServlet(name = "helloServlet", value = "/hello-servlet")
 public class HelloServlet extends HttpServlet {
 
+
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         String rame = request.getParameter("uname");
         request.setAttribute("nickname", rame);

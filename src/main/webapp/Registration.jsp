@@ -10,7 +10,7 @@
 <center>
     <h2> Please Fill All Lines To Register New Account </h2>
 </center>
-<form action="registration-servlet" method="get" >
+<form action="registration-servlet" method="" >
     <center>
         <label for="firstname">First Name:</label><br>
         <input type="text" id="firstname" name="firstname" placeholder="Enter your Name" required ><br>
@@ -30,9 +30,6 @@
             <p>Already have an account? <a href="index.jsp">Sign in</a>.</p>
         </div>
     </center>
-
 </form>
-
 </body>
-
 </html>
